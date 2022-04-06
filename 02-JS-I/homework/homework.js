@@ -31,37 +31,45 @@ function devolverString(str) {
   
 }
 
+var x = 4
+var y = 2
+
+
 function suma(x,y) {
   var suma = x + y;
   return suma;
   }
 
-  suma(1,2);
+  suma(4,2);
 
     
 
 function resta(x, y) {
   var resta = x - y;
-  resta(2,1)
+  resta(4,2)
 }
 
 function multiplica(x, y) {
   var multiplica = x * y;
-  multiplica(2,1)
+  multiplica(4,2)
   
 }
 
 function divide(x, y) {
   var divide = x / y;
-  divide(2,1)
+  divide(4,2)
   
 }
 
 function sonIguales(x, y) {
-  // Devuelve "true" si "x" e "y" son iguales
-  // De lo contrario, devuelve "false"
-  // Tu código:
-  
+  if (x === y); {
+  return true;
+
+}
+
+return false;
+
+//FALTA COMPLETAR
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -71,19 +79,23 @@ function tienenMismaLongitud(str1, str2) {
   
 }
 
+var num = 100;
+
 function menosQueNoventa(num) {
-  // Devuelve "true" si el argumento de la función "num" es menor que noventa
-  // De lo contrario, devuelve "false"
-  // Tu código:
-  
+  if (num < 90) {
+    return true;
+  }
+  return false;
 }
+menosQueNoventa(80); 
 
 function mayorQueCincuenta(num) {
-  // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
-  // De lo contrario, devuelve "false"
-  // Tu código:
-  
+  if (num > 50) {
+    return true;
+  }
+  return false;
 }
+mayorQueCincuenta(60);
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
