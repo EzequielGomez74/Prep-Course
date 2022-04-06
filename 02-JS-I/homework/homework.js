@@ -95,7 +95,7 @@ function mayorQueCincuenta(num) {
   }
   return false;
 }
-mayorQueCincuenta(60);
+mayorQueCincuenta(70);
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
