@@ -1,22 +1,22 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'first';
+const nuevaString = "ezequiel";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = '1974';
+const nuevoNum = 93;
 
 // Crea una variable booleana:
-const nuevoBool = 'true';
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = '10 - 5 === 5';
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = '10 * 4 === 40' ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = '30 % 5 === 4';
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -31,46 +31,38 @@ function devolverString(str) {
   
 }
 
-var x = 4
-var y = 2
-
-
-function suma(x,y) {
-  var suma = x + y;
-  return suma;
-  }
-
-  suma(4,2);
-
-    
+function suma(x, y) {
+  // "x" e "y" son números
+  // Suma "x" e "y" juntos y devuelve el valor
+  // Tu código:
+  
+}
 
 function resta(x, y) {
-  var resta = x - y;
-  resta(4,2)
+  // Resta "y" de "x" y devuelve el valor
+  // Tu código:
+  
 }
 
 function multiplica(x, y) {
-  var multiplica = x * y;
-  multiplica(4,2)
+  // Multiplica "x" por "y" y devuelve el valor
+  // Tu código:
   
 }
 
 function divide(x, y) {
-  var divide = x / y;
-  divide(4,2)
+  // Divide "x" entre "y" y devuelve el valor
+  // Tu código:
   
 }
 
 function sonIguales(x, y) {
-  if (x === y); {
-  return true;
-
+  // Devuelve "true" si "x" e "y" son iguales
+  // De lo contrario, devuelve "false"
+  // Tu código:
+  
 }
 
-return false;
-
-}
-sonIguales(x,y)
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
@@ -78,23 +70,19 @@ function tienenMismaLongitud(str1, str2) {
   
 }
 
-var num = 100;
-
 function menosQueNoventa(num) {
-  if (num < 90) {
-    return true;
-  }
-  return false;
+  // Devuelve "true" si el argumento de la función "num" es menor que noventa
+  // De lo contrario, devuelve "false"
+  // Tu código:
+  
 }
-menosQueNoventa(80); 
 
 function mayorQueCincuenta(num) {
-  if (num > 50) {
-    return true;
-  }
-  return false;
+  // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
+  // De lo contrario, devuelve "false"
+  // Tu código:
+  
 }
-mayorQueCincuenta(70);
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
