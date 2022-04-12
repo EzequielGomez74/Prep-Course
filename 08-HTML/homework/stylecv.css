@@ -1,8 +1,30 @@
 h1 {
-    color: crimson;
+    color: rgb(136, 15, 40);
 
 }
 
 #primerdiv {
-    background-color: grey;
+    background-color: rgb(168, 161, 161);
+    color: rgb(121, 68, 30);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#divexp1 {
+    background-color: rgb(117, 93, 93) ;
+    color: rgb(46, 24, 87);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#divfinal {
+    background-color: bisque;
+   text-align: center; 
+}
+
+#footer1 {
+    background-color: bisque;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif; 
+
 }
