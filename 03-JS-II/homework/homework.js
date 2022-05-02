@@ -69,13 +69,13 @@ function colors(color) {
   
   switch (color) {
     case "blue":
-      return "This is" + color;
+      return "This is " + color;
       case "red":
-        return "This is" + color;
+        return "This is " + color;
         case "green":
-          return "This is" + color;
+          return "This is " + color;
           case "orange":
-            return "This is" + color;
+            return "This is " + color;
     default:
     return "Color not found"
   }
@@ -190,11 +190,11 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  let array = [];
-  for (let i=0; i <= 10; i++) {
-    Array.push(6*1);
+  var array = [];
+  for(var i = 0; i < 11; i++) {
+    array.push(i * 6);
   }
-   return Array;
+   return array;
 }
 
 function tieneTresDigitos(numero){
