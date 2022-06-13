@@ -67,8 +67,8 @@ return stringInvertida;
         return {
          Nombre:this.nombre,
          Apellido:this.apellido,
-          Edad:this.edad,
-         Domicilio:this.domicilio
+         Edad:this.edad,
+         Domicilio:this.domicilio,
        }
       }
 }
